@@ -18,6 +18,9 @@
             <form method="post" action="login.php">
                 <input type="submit" value="Login">
             </form>
+            <form method="post" action="register.php">
+                <input type="submit" value="register">
+            </form>
         <h1>Pet Store</h1>
         <?php if (!empty($error_message)) { ?>
             <p class="error"><?php echo $error_message; ?></p>
