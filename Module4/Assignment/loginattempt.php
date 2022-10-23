@@ -4,11 +4,11 @@
     $password = filter_input(INPUT_POST, 'password');
 
     //Create Expressions
-    $email_pattern = '/Harris/';
+    $email_pattern = '/Harris@gmail.com/';
     $email_match = preg_match($email_pattern, $email);
-    $username_pattern = '/Harris/';
+    $username_pattern = '/Harris123/';
     $username_match = preg_match($username_pattern, $username);
-    $password_pattern = '/Harris/';
+    $password_pattern = '/Password123/';
     $password_match = preg_match($password_pattern, $password);
 
     //Validate Email
