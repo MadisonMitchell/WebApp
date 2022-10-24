@@ -1,0 +1,47 @@
+body {
+    font-family:'Times New Roman', Times, serif
+}
+
+main {
+    display: block;
+    width: 450;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background: rgb(91, 185, 178);
+    border: 5px solid rgb(6, 71, 68);
+}
+
+h1{
+    margin-top: 0;
+    color: rgb(9, 43, 41);
+}
+
+label {
+    width: 10cm;
+    padding-right: 1em;
+    float: left;
+}
+
+#data input {
+    float: left;
+    width: 15em; 
+    margin-bottom: .5em;
+}
+
+#data span {
+    padding-left: .25em;
+}
+
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+}
+
+br {
+    clear: left;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
